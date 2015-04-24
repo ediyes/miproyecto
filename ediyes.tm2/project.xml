@@ -1,38 +1,284 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map[]>
-<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#000000">
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
 
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-53.3496,-19.6529,6</Parameter>
+  <Parameter name="center">-46.834,-11.6197,14</Parameter>
+  <Parameter name="description"><![CDATA[Progreso en Latinoamerica, usuario:ediyes]]></Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[ediyes 13 - 15]]></Parameter>
   <Parameter name="source"><![CDATA[mapbox:///ediyes.4ed920f2]]></Parameter>
 </Parameters>
 
 
 <Style name="ediyes" filter-mode="first">
   <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([timestamp] &gt; 1420070400)</Filter>
-    <LineSymbolizer stroke="#f80f54" stroke-width="10" />
+    <LineSymbolizer stroke-width="2" stroke="#f80f54" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#f80f54" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#f80f54" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke-width="5" stroke="#f80f54" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke-width="6" stroke="#f80f54" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke-width="7" stroke="#f80f54" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke-width="10" stroke="#f80f54" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke="#f80f54" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([timestamp] &gt; 1417392000)</Filter>
-    <LineSymbolizer stroke="#ed13c2" stroke-width="8" />
+    <LineSymbolizer stroke-width="2" stroke="#ed13c2" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#ed13c2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#ed13c2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke-width="5" stroke="#ed13c2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke-width="6" stroke="#ed13c2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke-width="7" stroke="#ed13c2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke-width="10" stroke="#ed13c2" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke="#ed13c2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([timestamp] &gt; 1401580800)</Filter>
-    <LineSymbolizer stroke="#de24f2" stroke-width="6" />
+    <LineSymbolizer stroke-width="2" stroke="#de24f2" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#de24f2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#de24f2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke-width="5" stroke="#de24f2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke-width="6" stroke="#de24f2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke-width="7" stroke="#de24f2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke-width="10" stroke="#de24f2" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke="#de24f2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([timestamp] &gt; 1385856000)</Filter>
-    <LineSymbolizer stroke="#c92ff6" stroke-width="4" />
+    <LineSymbolizer stroke-width="2" stroke="#c92ff6" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#c92ff6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#c92ff6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke-width="5" stroke="#c92ff6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke-width="6" stroke="#c92ff6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke-width="7" stroke="#c92ff6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke-width="10" stroke="#c92ff6" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke="#c92ff6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([timestamp] &gt; 1370044800)</Filter>
-    <LineSymbolizer stroke="#c36beb" stroke-width="2" />
+    <LineSymbolizer stroke-width="2" stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke-width="5" stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke-width="6" stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke-width="7" stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke-width="10" stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke="#c36beb" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <LineSymbolizer stroke-width="3" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="4" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="7" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="10" />
   </Rule>
 </Style>
 <Layer name="ediyes"

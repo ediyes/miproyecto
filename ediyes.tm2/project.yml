@@ -1,4 +1,5 @@
 _prefs: 
+  mapid: ediyes.274f8ef3
   saveCenter: true
 _properties: 
   bridge: 
@@ -10,16 +11,16 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -53.3496
-  - -19.6529
-  - 6
-description: ''
+  - -46.834
+  - -11.6197
+  - 14
+description: "Progreso en Latinoamerica, usuario:ediyes"
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: ''
+name: ediyes 13 - 15
 source: "mapbox:///ediyes.4ed920f2"
 styles: 
   - style.mss
