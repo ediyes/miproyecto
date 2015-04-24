@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#000000">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">-53.3496,-19.6529,6</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///ediyes.4ed920f2]]></Parameter>
+</Parameters>
+
+
+<Style name="ediyes" filter-mode="first">
+  <Rule>
+    <Filter>([timestamp] &gt; 1420070400)</Filter>
+    <LineSymbolizer stroke="#f80f54" stroke-width="10" />
+  </Rule>
+  <Rule>
+    <Filter>([timestamp] &gt; 1417392000)</Filter>
+    <LineSymbolizer stroke="#ed13c2" stroke-width="8" />
+  </Rule>
+  <Rule>
+    <Filter>([timestamp] &gt; 1401580800)</Filter>
+    <LineSymbolizer stroke="#de24f2" stroke-width="6" />
+  </Rule>
+  <Rule>
+    <Filter>([timestamp] &gt; 1385856000)</Filter>
+    <LineSymbolizer stroke="#c92ff6" stroke-width="4" />
+  </Rule>
+  <Rule>
+    <Filter>([timestamp] &gt; 1370044800)</Filter>
+    <LineSymbolizer stroke="#c36beb" stroke-width="2" />
+  </Rule>
+</Style>
+<Layer name="ediyes"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>ediyes</StyleName>  </Layer>
+
+</Map>
